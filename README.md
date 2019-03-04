@@ -17,3 +17,7 @@ https://doi.org/10.1016/j.ijthermalsci.2018.12.049
 The software is intended to increase the use of Green's function based thermal analysis techniques in scenarios where their application is appropriate.
 
 Various example applications are included in the release which demonstrate how a user may call the functions in HEDSATS which return the solutions to the 3D transient heat equation with the application of various distributed heat sources.
+
+Development of the library of solutions is ongoing, including the addition of further boundary condition combinations, heat source models etc.
+
+Please direct any questions or comments to Dr Tom Flint at the Universiy of Manchester (thomas.flint@manchester.ac.uk)
