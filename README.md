@@ -6,6 +6,7 @@ Contained within this repository are a series of semi-analytical thermal solutio
 The solutions utilise various combinations of Laplace transform, Eigen value problem and method of images based solutions to compute the thermal response to volumetric heat sources in orthogonal three dimensional domains.
 
 The relevant works pertaining to this software are:
+
 https://doi.org/10.1016/j.jmatprotec.2017.02.002
 
 https://doi.org/10.1016/j.ijthermalsci.2017.09.012
