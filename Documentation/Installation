@@ -1,0 +1,1 @@
+Following download and unzipping, the HEDSATS examples can be compiled using the GNU makefile located in each example folder. Navigate to the particular example and use the make and make clean operations, this will utilise all appropriate flags and compiler options.
