@@ -1,0 +1,3 @@
+N=`awk 'NR==1 {print NF}' Output.dat`
+set title "`head -n1 Output.dat`"
+plot for [i=2:N] "Output.dat" u 1:i
