@@ -1418,6 +1418,7 @@ x_C=x_component_convection_at_B_convection_at_0_hs_at_bg(k_conductivity,cp_steel
 }
 else{
 cerr<<"The Boundary Conditions "<<xBC<<" are not yet included in HEDSATS. Please contact the author if you would like them"<<endl;
+exit(1);
 }
 
 
@@ -1431,6 +1432,7 @@ y_C=y_component_convection_at_D_convection_at_0_hs_at_dg(k_conductivity,cp_steel
 }
 else{
 cerr<<"The Boundary Conditions "<<yBC<<" are not yet included in HEDSATS. Please contact the author if you would like them"<<endl;
+exit(1);
 }
 
 
@@ -1454,6 +1456,7 @@ z_f_C=z_front_component_convection_at_L_convection_at_0_hs_at_vt(k_conductivity,
 }
 else{
 cerr<<"The Boundary Conditions "<<zBC<<" are not yet included in HEDSATS. Please contact the author"<<endl;
+exit(1);
 }
 
 //double x_DE=x_DE_part_HS_at_bg(k_conductivity,cp_steel,density,t,t_prime,B,x,a,b_g);
@@ -1535,6 +1538,7 @@ x_DE=x_component_convection_at_B_convection_at_0_hs_at_bg(k_conductivity,cp_stee
 }
 else{
 cerr<<"The Boundary Conditions "<<xBC<<" are not yet included in HEDSATS. Please contact the author if you would like them"<<endl;
+exit(1);
 }
 
 
@@ -1547,6 +1551,7 @@ y_DE=y_component_convection_at_D_convection_at_0_hs_at_dg(k_conductivity,cp_stee
 }
 else{
 cerr<<"The Boundary Conditions "<<yBC<<" are not yet included in HEDSATS. Please contact the author if you would like them"<<endl;
+exit(1);
 }
 
 
@@ -1564,6 +1569,7 @@ z_f_DE=z_front_component_convection_at_L_convection_at_0_hs_at_vt(k_conductivity
 }
 else{
 cerr<<"The Boundary Conditions "<<zBC<<" are not yet included in HEDSATS. Please contact the author"<<endl;
+exit(1);
 }
 
 
