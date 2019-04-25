@@ -1,3 +1,6 @@
+set key autotitle columnheader font ",16"
+set xlabel "time (s)" font ",18"
+set ylabel "Temperature (Celsius)" font ",18"
+set title "Experimentally Measured and Theoretically Predicted Temperature Responses from DEC Heat Source Model in HEDSATS" font ",16"
 N=`awk 'NR==1 {print NF}' Output.dat`
-set title "`head -n1 Output.dat`"
-plot for [i=2:N] "Output.dat" u 1:i
+plot for [i=2:N] "Output.dat" u 1:i ps 1
