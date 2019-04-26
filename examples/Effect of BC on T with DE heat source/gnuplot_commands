@@ -1,0 +1,7 @@
+set key autotitle columnheader font ",16"
+set xlabel "time (s)" font ",18"
+set ylabel "Temperature (Celsius)" font ",18"
+set yrange [200:1250]
+set title "Effect of Boundary Condition Selection on the Temperature Evolution at a Point in the Domain in HEDSATS" font ",16"
+N=`awk 'NR==1 {print NF}' data.dat`
+plot for [i=2:N] "data.dat" u 1:i ps 2
